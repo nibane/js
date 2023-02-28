@@ -21,6 +21,10 @@
     color: #aaa;
 }
 
+.test {
+    background: red;
+}
+
 @keyframes appear {
     from {
         transform: scale(0) rotate(180deg);
