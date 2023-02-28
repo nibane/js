@@ -24,6 +24,16 @@
                     parent.appendChild(temp)
                 }
             }
+
+            function showReaction(type, clickedBox){
+                clickedBox.classList.add(type)
+                if(type !== "success"){
+                    setTimeout(function(){
+                        clickedBox.classList.remove(type)
+                    }, 800)
+                    
+                }
+            }
             
             const box = document.createElement("div")
             box.classList.add("box")
@@ -48,12 +58,14 @@
                         newbox.classList.add("box-clicked")
                         
                         if(nb == board.children.length){
-                            alert("VICTOIRE !")
+                            board.querySelectorAll(".box").forEach(function(box){
+                                showReaction("success", box)
+                            })
                         }
                         nb++
                     }    
                     else if(i > nb){
-                        alert("Erreur, recommencez !")
+                        showReaction("error", newbox)
                         nb = 1
                         //a tout les element de board de la class box-clicked, pour chaque fonction (selecteur)
                         board.querySelectorAll(".box-clicked").forEach(function(validBox){
@@ -64,7 +76,7 @@
                     }
 
                     else{
-                        alert("Case déjà cliquée !")
+                        showReaction("notice", newbox)
                     }
 
                           
