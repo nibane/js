@@ -1,0 +1,19 @@
+document.getElementById("demo").innerHTML = x + y;
+https://lesdocs.fr/la-methode-getelementbyid/
+
+//sur click fait action
+<button  onclick ="alert('Hello')">Click me.</button>
+
+<div onmouseover="this.style.backgroundColor='red'">myDIV.</div>
+https://www.w3schools.com/jsref/event_onmouseover.asp
+
+txt.slice
+https://www.w3schools.com/jsref/jsref_slice_string.asp
+
+const cars = ["Saab", "Volvo", "BMW"];
+let x = cars[1];
+//sortie Volvo
+//array.pop() supprime le dernier élément du tableau
+//array.push("Kiwi") rajoute kiwi dans le tableau
+//const d = new Date()    ;nouvelle date
+
