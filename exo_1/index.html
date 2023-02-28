@@ -8,33 +8,57 @@
     <link rel="stylesheet" href="style.css" <title>Document</title>
 </head>
 
-<body>
+    <body>
 
-    <div id="board"></div>
+        <div id="board"></div>
 
-    <script>
+        <script>
 
-        const box = document.createElement("div")
-        box.classList.add("box")
+            function shuffleChildren(parent){
+                let children = parent.children
+                let i = children.length,k,temp
+                while(--i > 0){
+                    k = Math.floor(Math.random() * (i+1))
+                    temp = children[k]
+                    children[k] = children[i]
+                    parent.appendChild(temp)
+                }
+            }
+            
+            
+            
+            
+            const box = document.createElement("div")
+            box.classList.add("box")
 
-        const board = document.querySelector("#board")
+            const board = document.querySelector("#board")
 
-        for(let i = 1; i <= 10; i++){
-            let newbox = box.cloneNode()
-            newbox.innerText = i
-            board.appendChild(newbox)
-        }
+            let nb = 1
 
-        let i = board.children.length, k , temp
-        while(--i > 0){
-            k = Math.floor(Math.random() * (i+1))
-        }
-        
-        
+            for(let i = 1; i <= 10; i++){
+                const newbox = box.cloneNode()
+                newbox.innerText = i
+                board.appendChild(newbox)
+                
+                newbox.addEventListener("click", function(){
+                    
+                    if(i == nb){
+                        newbox.classList.add("box-valid")
+                        nb++
+                    }
+                    
+                })
+            }
+            
+            shuffleChildren(board)
 
 
-    </script>
 
-</body>
+            
+
+
+        </script>
+
+    </body>
 
 </html>
