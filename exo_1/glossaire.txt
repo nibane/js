@@ -15,5 +15,35 @@ let x = cars[1];
 //sortie Volvo
 //array.pop() supprime le dernier élément du tableau
 //array.push("Kiwi") rajoute kiwi dans le tableau
-//const d = new Date()    ;nouvelle date
+//const d = new Date()    ;nouvelle date        //d.getFullYear()     ;renvoie l'année d'un date    //d.getMonth() ;renvoie le mois  //d.setFullYear(2020)   ;donne la valeur 2020 en tant que année dans l'object dans
+//Math.max(arg)   ; revoie la valeur la plus grande
+//Math.round()  ; arrondie un chiffre a virgule
+//Math.sqrt()  ; revoie la racine carré
+// != not equal
 
+opérateur ternaire: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+switch : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/switch
+
+for x of y: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/for...of
+
+break : continue
+
+<p id ="demo"></p>
+document.getElementById("demo").innerHTML = "Hello";   :change le text de la balise <p> est y insrit "Hello"
+
+document.getElementsByTagName("p")[0].innerHTML = "Hello"; : trouve la premier balise <p> est y insrit "Hello"
+
+document.getElementsByClassName("test")[0].innerHTML = "Hello"; : change le texte de la premier balise <p> de class "test"
+
+document.getElementById("image").src = "pic_mountain.jpg";  :change la valeur de image.src
+
+document.getElementById("demo").style.display = "none";  :cache l'element parent
+
+document.getElementById("demo").addEventListener("click", myFunction); : https://developer.mozilla.org/fr/docs/Web/API/EventTarget/addEventListener
+
+classlist: https://www.w3schools.com/jsref/prop_element_classlist.asp
+
+addEventListener: https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+
+comment verifier la valeur d'une variable en js : en utilisant console.log() qui affiche dans la console la valeur mis en argument 
