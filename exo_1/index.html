@@ -9,10 +9,42 @@
 </head>
 
     <body>
-
+        
         <div id="board"></div>
+        <div id="timer"></div>
+        <button onclick="afficherTemps()">afficher temps</button>
+        <button onclick="stopTemps()">afficher temps fin</button>
 
         <script>
+
+            let temps = 0
+            let toogle = 0
+            
+
+            
+
+            function incrementerTemps() {
+                // incremente le temps 
+                temps++
+            }
+            //chaque 1000 milisecond utilise la fonction incrementerTemps 
+            setInterval(incrementerTemps, 1000)
+
+
+            
+            function afficherTemps(){
+                timerElement.innerText = "votre temps est de " + temps + "s"
+            }
+            
+            function stopTemps(){
+                
+            }
+            
+            
+            const timerElement = document.getElementById("timer")
+            
+            
+            
 
             function shuffleChildren(parent){
                 let children = parent.children
@@ -67,11 +99,14 @@
                     else if(i > nb){
                         showReaction("error", newbox)
                         nb = 1
+                        shuffleChildren(board)
                         //a tout les element de board de la class box-clicked, pour chaque fonction (selecteur)
                         board.querySelectorAll(".box-clicked").forEach(function(validBox){
                             //a tout selecteur de la classList enleve box-clicked
                             validBox.classList.remove("box-clicked")
+
                         })
+                        
 
                     }
 
@@ -85,14 +120,11 @@
             
             shuffleChildren(board)
 
-            /*console.log(board.children[1])
-            board.childNodes.forEach((element) => {
-                element.addEventListener("click", function() {
-                    element.classList.toggle("test")
-                })
-            })*/
+            
 
+            
 
+            //question a poserl 80 , appelle de function qui sort de je ne c'est pas ou
         </script>
 
     </body>
