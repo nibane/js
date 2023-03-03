@@ -1,6 +1,8 @@
 #board {
     display: flex;
     flex-wrap: wrap;
+    width: 175px;
+    height: 175px;
 }
 
 .box {
@@ -21,8 +23,6 @@
 .box-clicked {
     background-color: #ff0303;
     transform: scale(0.8);
+    transform: rotate(360deg) ;
 }
 
-.boxContainer{
-    
-}
