@@ -7,6 +7,10 @@
     display: table-cell;
     vertical-align: middle;
     font-size: 60px;
-    
+    cursor: pointer;
+}
+div{
+    width: 200px;
+    height: 200px;
 }
 
