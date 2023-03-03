@@ -47,3 +47,11 @@ classlist: https://www.w3schools.com/jsref/prop_element_classlist.asp
 addEventListener: https://www.w3schools.com/jsref/met_document_addeventlistener.asp
 
 comment verifier la valeur d'une variable en js : en utilisant console.log() qui affiche dans la console la valeur mis en argument 
+
+`` sont des sorte de guillemet améliorer qui passe a la ligne seul ,nom: backtik
+
+affichage de variable avec des backtik
+soit a = 2 et b = 3
+`${a} ${b}`
+
+sortir : 2 3
