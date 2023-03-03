@@ -7,16 +7,35 @@
     <link rel="stylesheet" href="style.css" <title>Document</title>
 </head>
 <body>
-    <div id="box"></div>
+    <div id="div" onclick ="alertInfo()" ></div>
     <script>
 
+        let getElement = document.getElementById('div')
+        
+        
+        function displayCSSProperty()
+            let ht = window.getComputedStyle(getElement,null)
+            ht.foreach(getElement => getPropertyValue(property));
+            console.log(ht)
+
+        
+
+
+        // creer un element du nom de "div"
         const box = document.createElement("div")
+        // ajoute le style de la class "box" a la variable box
         box.classList.add("box")
 
+
+        // board prend la valeur de html "div"
         const board = document.querySelector("div")
 
+
+        // newbox = un clone de box
         const newbox = box.cloneNode()
+        // txt inscrit dans box
         newbox.innerText = "txt"
+        // ajout de newbox dans board
         board.appendChild(newbox)
         
 
