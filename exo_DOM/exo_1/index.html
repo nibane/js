@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="style.css" <title>Document</title>
 </head>
 <body>
-    <div id="box"></div>
-    <script>
+    <div id="box" onclick="afficherProp()"></div>
+    <script>   
+
+        
+        function afficherProp(){
+            alert ("width: 200px; height: 200px; color: darkkhaki; background: darkcyan; text-align: center; display: table-cell; vertical-align: middle; font-size: 60px; cursor: pointer;")
+        }
 
         const box = document.createElement("div")
         box.classList.add("box")
