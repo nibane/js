@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><title>Document</title>
+</head>
+<body>
+
+    <div id="board"></div>
+    <p id="message"></p>
+
+    <script>
+
+        const box = document.createElement("div")
+        box.classList.add("box")
+
+        const board = document.querySelector("#board")
+        let message = document.getElementById("message")
+        
+        let nb = 0
+        for (let i = 1; i <= 9; i++){
+            const newbox = box.cloneNode()
+            board.appendChild(newbox)
+            
+            newbox.addEventListener("click", function() {
+                if (nb == 8){
+                    message.innerHTML = "Partie terminée !"
+                    newbox.innerHTML = "O"
+                }
+                else{
+                    if (nb%2 == 0 ){
+                        newbox.innerHTML = "O"
+                    }
+                    else{
+                        newbox.innerHTML = "X"
+                    }
+                    nb++
+                }
+            })
+        }
+    </script>
+</body>
+</html>
