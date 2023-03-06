@@ -41,8 +41,8 @@
         document.onkeydown = function (e) {
             switch (e.key) {
                 case 'ArrowUp':
-                    nb--
-                    box.remove
+                    //nb--
+                    board.removeChild(board.lastChild)
                 break;
                 case 'ArrowDown':
                     nb++
@@ -56,7 +56,7 @@
         for (let i = 0; i < nb;){
             createBox()
         }
-
+       
 
 
 
