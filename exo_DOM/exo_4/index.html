@@ -7,24 +7,63 @@
     <link rel="stylesheet" href="style.css"><title>Document</title>
 </head>
 <body>
+    <div id="board"></div>
     
     <script>
+
+        nb = 0
 
         const box = document.createElement("div")
         box.classList.add("box")
 
         const board = document.querySelector("#board")
 
-        if (EventTarget.addEventListener(key)){
-            
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+              color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+          }
+        
+        //const colorpad = document.querySelector("#colorpad")
+        //$("#colorpad").css("background-color", getRandomColor());
+        //colorpad.style.backgroundColor = getRandomColor()
+
+        function creatBox(){
+            const newbox = box.cloneNode()
+            board.appendChild(newbox)
+            box.style.backgroundColor = getRandomColor()
         }
         
         
+        document.onkeydown = function (e) {
+            switch (e.key) {
+                case 'ArrowUp':
+                    nb--
+                    box.remove
+                break;
+                case 'ArrowDown':
+                    nb++
+                    creatBox()
+
+                break;
+                
+            }
+        };
+        
+        for (let i = 0; i < nb;){
+            createBox()
+        }
+
+
+
+
+
         
     </script>
     
     
 </body>
 </html>
-const newbox = box.cloneNode()
-board.appendChild(newbox)
