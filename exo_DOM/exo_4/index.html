@@ -12,16 +12,20 @@
     <script>
 
         nb = 0
-
+        
+        //creation d'une boite
         const box = document.createElement("div")
         box.classList.add("box")
 
+        //selection d'une boite
         const board = document.querySelector("#board")
+
 
         function getRandomColor() {
             var letters = '0123456789ABCDEF';
-            var color = '#';
+            var color = '#'; 
             for (var i = 0; i < 6; i++) {
+                //math.random entier aléatoire de 0 a 1, *16 car letters a 16 caractére est math.floor pour prendre une valeur entiére arrondie a l'entier en dessous 
               color += letters[Math.floor(Math.random() * 16)];
             }
             return color;
@@ -31,31 +35,41 @@
         //$("#colorpad").css("background-color", getRandomColor());
         //colorpad.style.backgroundColor = getRandomColor()
 
+        //creer une box
         function creatBox(){
             const newbox = box.cloneNode()
             board.appendChild(newbox)
             box.style.backgroundColor = getRandomColor()
         }
         
-        
+        //quand la fleche du bas est presser
         document.onkeydown = function (e) {
-            switch (e.key) {
-                case 'ArrowUp':
-                    //nb--
-                    board.removeChild(board.lastChild)
-                break;
-                case 'ArrowDown':
-                    nb++
-                    creatBox()
-
-                break;
-                
+            
+            
+            if (nb < 225)
+                switch (e.key) {
+                    case 'ArrowUp':
+                        nb--
+                        //enlever le dernier enfant de board
+                        board.removeChild(board.lastChild)
+                    break;
+                    case 'ArrowDown':
+                        nb++
+                        //creer une box
+                        creatBox()
+                    break;
             }
-        };
+            else{
+                //pour chaque element enfant de board ajouter un ecouteur d'evenement qui change le backgroundColor en noir
+                board.childNodes.forEach((element) => {
+                    element.addEventListener("click", function() {
+                    element.style.backgroundColor = "#000000"
+                    })
+                })
+            }}
+            
         
-        for (let i = 0; i < nb;){
-            createBox()
-        }
+
        
 
 
