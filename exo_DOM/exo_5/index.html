@@ -11,20 +11,20 @@
     
     <div id="container">
         <div id="txt">valeur en euros</div>
-        <input id="inputEuros" type="number" placeholder="euros"
-        oninput="converteur(this.value)" onchange="converteur(this.value)"></input> 
-        <div id="convertion">convertion</div> 
+        <input id="inputEuros" type="number" placeholder="euros" oninput="converteur(this.value)" onchange="converteur(this.value)"></input> 
+        <div id="convertion"></div> 
     </div>
 
 
     <script>
 
-        const txt1 = document.querySelector('txt')
-        const entrer1 = document.querySelector('inputEuros')
-        const convertion1 = document.querySelector('convertion')
+        const txt1 = document.querySelector('#txt')
+        const entrer1 = document.querySelector('#inputEuros')
+        const convertion1 = document.querySelector('#convertion')
 
         function converteur(money){
-            convertion1.innerHTML = money *6.55957
+            money = money * 6.55957
+            convertion1.innerHTML = (money.toFixed(2) + "francs")
         }
 
 
