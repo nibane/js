@@ -1,4 +1,17 @@
 body{
     background: url(./img/MicrosoftTeams-image.png) center/cover;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
 }
