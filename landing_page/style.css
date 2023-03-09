@@ -7,3 +7,37 @@
 section{
     min-height: 100vh;
 }
+
+/*style de la premier section*/
+#tete{
+    background-image: radial-gradient( rgb(139,195,245), #1294b8);
+}
+
+
+/*barre de navigation en haut de l'ecran*/
+nav {
+    width: 100%;
+    height: 50px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/*style des boite dans la nav barre*/
+#navListeLiens ul {
+    display: flex;
+    gap: 10px;
+}
+
+/*enleve les points des listes*/
+#navListeLiens ul li {
+    list-style: none;
+}
+
+/*enleve le style de base atribuer au liens*/
+#navListeLiens ul li a {
+    text-decoration: none;
+    color: #fff;
+}
