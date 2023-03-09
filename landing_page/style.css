@@ -62,14 +62,16 @@ nav {
 /*______________________________________________________________________*/
 
 /*DROITE___________________________________________________*/
-#navigation {
-
+#navIcon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navIcon ul {
     display: flex;
-    gap: 10px;
-
+    gap: 20px;
 }
 
 #navIcon ul li {
