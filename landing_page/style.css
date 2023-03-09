@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 section {
@@ -17,8 +18,7 @@ section {
 /*barre de navigation en haut de l'ecran_______________________________*/
 nav {
     width: 100%;
-    height: 50px;
-    background: red;
+    height: 150px;
     display: flex;
     /*justify-content: space-between;*/
     align-items: center;
@@ -80,4 +80,9 @@ nav {
 
 #navIcon ul li a i {
     color: #fff;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(landing_page\Poppins);
 }
