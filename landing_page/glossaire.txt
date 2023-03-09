@@ -1,1 +1,2 @@
-element:hover  https://developer.mozilla.org/fr/docs/Web/CSS/:hover
+element:active  https://developer.mozilla.org/fr/docs/Web/CSS/:active
+src : https://developer.mozilla.org/fr/docs/Web/HTML/Element/img
