@@ -1,2 +1,5 @@
 element:active  https://developer.mozilla.org/fr/docs/Web/CSS/:active
 src : https://developer.mozilla.org/fr/docs/Web/HTML/Element/img
+placeholder : https://www.w3schools.com/jsref/prop_text_placeholder.asp
+
+iste de input utile: https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/button
