@@ -81,8 +81,15 @@ nav {
 #navIcon ul li a i {
     color: #fff;
 }
+/*____________________________________________________________________*/
+
+/*input txt + image___________________________________________________*/
+#inputTxtImage{
+    display: flex;
+}
+
 
 @font-face {
     font-family: Poppins;
-    src: url(landing_page\Poppins);
+    src: url(./Poppins/Poppins-Regular.ttf);
 }
