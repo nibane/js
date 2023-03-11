@@ -83,9 +83,18 @@ nav {
 }
 /*____________________________________________________________________*/
 
-/*input txt + image___________________________________________________*/
-#inputTxtImage{
+/*input email + image cat___________________________________________________*/
+
+#inputEmailImageCat{
     display: flex;
+}
+
+#inputEmail{
+    width: 50%;
+}
+
+#ImageCat{
+    width: 50%;
 }
 
 
