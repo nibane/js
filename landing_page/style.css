@@ -87,14 +87,28 @@ nav {
 
 #inputEmailImageCat{
     display: flex;
+    justify-content: center;
+    
 }
 
 #inputEmail{
-    width: 50%;
+    width: 40%;
+    padding-right: 15%;
+}
+
+#inputEmail h1{
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+#inputEmail p{
+    margin-bottom: 20px;
+
 }
 
 #ImageCat{
-    width: 50%;
+    width: 40%;
 }
 
 
