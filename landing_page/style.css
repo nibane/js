@@ -84,33 +84,64 @@ nav {
 /*____________________________________________________________________*/
 
 /*input email + image cat___________________________________________________*/
-
 #inputEmailImageCat{
     display: flex;
     justify-content: center;
     
 }
 
-#inputEmail{
+/* partie gauche , texte input email*/
+#inputEmailTxt{
     width: 40%;
     padding-right: 15%;
 }
 
-#inputEmail h1{
+#inputEmailTxt h1{
     font-size: 46px;
     margin-top: 50px;
     margin-bottom: 20px;
    
 }
-#inputEmail p{
+#inputEmailTxt p{
     margin-bottom: 20px;
+}
+/*__________________________________________________________________*/
+
+/*Input email_____________________________________________________________*/
+#InputEmail{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 20px;
+    height: 40px;
 
 }
 
+#email{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 70% ;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#SUBSCRIBE{
+    background-color: rgb(0, 176, 176);
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    margin: 3px 3px;
+    
+}
+
+/*__________________________________________________________________*/
+
+
+/*partie de droite image chat_________________________________________*/
 #ImageCat{
     width: 40%;
 }
-
+/*___________________________________________________________________*/
 
 @font-face {
     font-family: Poppins;
