@@ -244,7 +244,20 @@ nav {
 
 .member img{
     width: 200px;
-    border-radius: 100%;  
+    border-radius: 100%;
+    transition: 0.5s;
+    filter: grayscale(1);  
+}
+#image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+#image img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);  
 }
 .member_ul{
     position: absolute;
