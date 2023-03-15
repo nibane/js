@@ -148,6 +148,9 @@ nav {
 
 
 /*style de la section 2_________________________________________________*/
+#section2{
+    background-color:rgb(218, 218, 218);
+}
 #section2 h3{
     text-align: center;
     font-size: 30px;
