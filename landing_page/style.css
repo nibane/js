@@ -150,7 +150,7 @@ nav {
 /*style de la section 2_________________________________________________*/
 #section2 h3{
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -167,7 +167,7 @@ nav {
 
 }
 
-#card{
+.card{
     display: flex;
     background-image: radial-gradient(rgb(139, 195, 245), #1294b8);
     width: 300px;
@@ -180,7 +180,12 @@ nav {
     font-size: 12px;
     padding: 1.7%;
     text-align: center;
+    transition: 0.5s;
 }
+.card:hover{
+    transform: translate(0,-20px);
+}
+
 #card h3{
     font-size: 20px;
 }
