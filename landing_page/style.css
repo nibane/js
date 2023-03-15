@@ -203,12 +203,25 @@ nav {
 /*style member________________________________________________*/
 #team_s3{
     display: flex;
-    gap: 60px;
+    gap: 100px;
     justify-content:center ;
+    text-align: center;
+}
+.member_p{
+    font-weight: 700;
+}
+.member_p2{
+    color: gray;
+    font-size: 10px;
+    padding-bottom: 50px;
 }
 .member img{
  width: 200px;
  border-radius: 100%;
+}
+.member_p4{
+    color: gray;
+    font-size: 12px;
 }
 
 
