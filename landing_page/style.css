@@ -199,6 +199,12 @@ nav {
     text-align: center;
     color: grey;
 }
+/*style member________________________________________________*/
+#team_s3{
+    display: flex;
+    gap: 60px;
+}
+
 
 @font-face {
     font-family: Poppins;
