@@ -204,6 +204,9 @@ nav {
     color: grey;
     padding-bottom: 60px;
 }
+/*style presentation__________________________________________*/
+
+
 /*style member________________________________________________*/
 #team_s3{
     display: flex;
@@ -215,9 +218,7 @@ nav {
 .member {
     position: relative;
 }
-.member_p{
-    font-weight: 700;
-}
+
 .member_p2{
     color: gray;
     font-size: 10px;
@@ -229,8 +230,8 @@ nav {
 }
 .member_ul{
     position: absolute;
-    left: 0px;
-    top : 0px;
+    left: 5px;
+    top : 25%;
 }
 .member_p4{
     color: gray;
