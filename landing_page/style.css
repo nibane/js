@@ -198,11 +198,17 @@ nav {
 #section3_p{
     text-align: center;
     color: grey;
+    padding-bottom: 60px;
 }
 /*style member________________________________________________*/
 #team_s3{
     display: flex;
     gap: 60px;
+    justify-content:center ;
+}
+.member img{
+ width: 200px;
+ border-radius: 100%;
 }
 
 
