@@ -238,35 +238,32 @@ nav {
     text-align: center;
 }
 
-.member {
-    position: relative;
-    overflow: hidden;
-}
 
 /*Image____________________________________________________*/
-.image_S3 img{
-    width: 200px;
-    border-radius: 100%;
-    transition: 0.5s;
-    filter: grayscale(1); 
-     
-}
 .image_S3{
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
-    
+    position: relative;
+
+}
+.image_S3 img{
+    width: 200px;
+    transition: 0.5s;
+    filter: grayscale(1); 
+    border-radius: 50%;
+}
+.image_S3:hover > .member_ul{
+    left: 10px;
+    top: 25%;
+    opacity: 1;
 }
 .image_S3 img:hover{
     transform: scale(1.1);
     filter: grayscale(0); 
 }
-img:hover + .member_ul{
-    left: 10px;
-    top: 25%;
-    opacity: 1;
-}
+
 /*liste d'icon_______________________________________________*/
 .member_ul{
     position: absolute;
@@ -274,6 +271,7 @@ img:hover + .member_ul{
     top : 10%;
     transition: 0.5s;
     opacity: 0;
+
 }
 .member_ul li {
     list-style: none;
