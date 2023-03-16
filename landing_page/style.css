@@ -145,9 +145,7 @@ nav {
 
 /*debut style de la section 2_________________________________________________*/
 /*intro section2_____________*/
-#section2{
-    background-color:rgb(231, 231, 231);
-}
+
 #section2 h3{
     text-align: center;
     font-size: 30px;
@@ -192,14 +190,37 @@ nav {
 .card i{
     font-size: 50px;
 }
-/*section3_____________________________________________________*/
-/*intro section3___________*/
+/*FIN SECTION 2_____________________________________________________________*/
+
+/*DEBUT SECTION 3___________________________________________________________*/
+
+#section3{
+    background-color: rgb(226, 226, 226);
+}
 #section3_h3{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+#section3_p{
+    text-align: center;
+    padding-top: 1%;
+    color: gray;
+}
+
+
+
+/*FIN SECTION 3_____________________________________________________________*/
+
+/*DEBUT DE LA SECTION 4_____________________________________________________*/
+/*intro section 4___________*/
+#section4_h3{
     text-align: center;
     padding-top: 100px;
     font-size: 36px;
 }
-#section3_p{
+#section4_p{
     text-align: center;
     color: grey;
     padding-bottom: 60px;
@@ -231,7 +252,7 @@ nav {
 }
 
 /*style member________________________________________________*/
-#team_s3{
+#team_s4{
     display: flex;
     gap: 100px;
     justify-content:center ;
@@ -240,7 +261,7 @@ nav {
 
 
 /*Image____________________________________________________*/
-.image_S3{
+.image_S4{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -248,18 +269,18 @@ nav {
     position: relative;
 
 }
-.image_S3 img{
+.image_S4 img{
     width: 200px;
     transition: 0.5s;
     filter: grayscale(1); 
     border-radius: 50%;
 }
-.image_S3:hover > .member_ul{
+.image_S4:hover > .member_ul{
     left: 10px;
     top: 25%;
     opacity: 1;
 }
-.image_S3 img:hover{
+.image_S4 img:hover{
     transform: scale(1.1);
     filter: grayscale(0); 
 }
