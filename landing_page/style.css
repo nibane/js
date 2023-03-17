@@ -310,6 +310,7 @@ nav {
 /*DEBUT SECTION 5_______________________________________________________________________*/
 /*Parallax__________________________________________________*/
 #parallax{
+    
     background-image: url("img/parallax.png");
     min-height: 500px;
     background-attachment: fixed;
@@ -318,10 +319,32 @@ nav {
     background-size: cover;
 }
 
+/*titre et txt___________________*/
+#parallax h3 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 2%;
+}
+
+#parallax p{
+    color: white;
+    text-align: center;
+}
+
 
 
 
 /*FIN SECTION 5_________________________________________________________________________*/
+
+/*DEBUT SAISON 6________________________________________________________________________*/
+
+
+
+
+
+
+/*FIN SAISON 6__________________________________________________________________________*/
 @font-face {
     font-family: Poppins;
     src: url(./Poppins/Poppins-Regular.ttf);
