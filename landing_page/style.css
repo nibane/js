@@ -350,29 +350,29 @@ nav {
     color: black;
     transition: 0.5s;
 }
+/*FIN SECTION 5____________________________________________________________________*/
 
-#section5 h3{
+
+/*DEBUT SAISON 6________________________________________________________________________*/
+
+#section6_h3{
     text-align: center;
     font-size: 40px;
     padding-top: 5%;
 }
 
-#section5_p{
+#section6_p{
     text-align: center;
     color: gray;
     padding-top:1% ;
 }
-
-/*FIN SECTION 5_________________________________________________________________________*/
-
-/*DEBUT SAISON 6________________________________________________________________________*/
-
 
 
 
 
 
 /*FIN SAISON 6__________________________________________________________________________*/
+
 @font-face {
     font-family: Poppins;
     src: url(./Poppins/Poppins-Regular.ttf);
