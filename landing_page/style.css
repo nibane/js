@@ -305,7 +305,23 @@ nav {
     color: gray;
     font-size: 12px;
 }
+/*FIN SECTION 4_________________________________________________________________________*/
 
+/*DEBUT SECTION 5_______________________________________________________________________*/
+/*Parallax__________________________________________________*/
+#parallax{
+    background-image: url("img/parallax.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*FIN SECTION 5_________________________________________________________________________*/
 @font-face {
     font-family: Poppins;
     src: url(./Poppins/Poppins-Regular.ttf);
