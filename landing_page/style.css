@@ -365,6 +365,7 @@ nav {
     text-align: center;
     color: gray;
     padding-top:1% ;
+    padding-bottom: 5%;
 }
 
 /*style blog________________*/
@@ -372,6 +373,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
 .blogElement{
     display: flex;
     justify-content: center;
