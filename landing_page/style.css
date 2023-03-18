@@ -367,8 +367,32 @@ nav {
     padding-top:1% ;
 }
 
-
-
+/*style blog________________*/
+#blogS6{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blogElement{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+.blogElement img{
+    width: 400px;
+    border-radius: 5px;
+}
+.blogElement h6{
+    font-size: 20px;
+}
+.blogElement p{
+    color: grey;
+}
+.blogElement a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
 
 
 /*FIN SAISON 6__________________________________________________________________________*/
