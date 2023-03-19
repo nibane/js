@@ -355,13 +355,13 @@ nav {
 
 /*DEBUT SAISON 6________________________________________________________________________*/
 
-#section6_h3{
+#section9_h3{
     text-align: center;
     font-size: 40px;
     padding-top: 5%;
 }
 
-#section6_p{
+#section9_p{
     text-align: center;
     color: gray;
     padding-top:1% ;
@@ -369,7 +369,7 @@ nav {
 }
 
 /*style blog________________*/
-#blogS6{
+#blogS9{
     display: flex;
     justify-content: space-evenly;
 }
