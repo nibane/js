@@ -353,6 +353,9 @@ nav {
 /*FIN SECTION 5____________________________________________________________________*/
 
 /*DEBUT SECTION 6*/
+#section6{
+    background-color: rgb(242, 242, 242);
+}
 #section6_h3{
     text-align: center;
     font-size: 40px;
@@ -361,8 +364,21 @@ nav {
 #section6_p{
     color: grey;
     text-align: center;
+    padding-bottom: 8%;
+}
+#cinq_image{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+#cinq_image img{
+    width: 100px;
 }
 /*FIN SECTION 6*/
+
+/*DEBUT SECTION 7*/
+
+/*FIN SECTION 7*/
 
 /*DEBUT SAISON 9________________________________________________________________________*/
 
