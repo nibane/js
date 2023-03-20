@@ -377,10 +377,19 @@ nav {
 /*FIN SECTION 6*/
 
 /*DEBUT SECTION 7*/
-
+#section7{
+    display: flex;
+    justify-content: center;
+}
+#section7_txt{
+    width: 40%;
+}
+#section7_img img{
+    width: 80%;
+}
 /*FIN SECTION 7*/
 
-/*DEBUT SAISON 9________________________________________________________________________*/
+/*DEBUT SECTION 9________________________________________________________________________*/
 
 #section9_h3{
     text-align: center;
@@ -395,7 +404,7 @@ nav {
     padding-bottom: 5%;
 }
 
-/*style blog________________*/
+/*style ________________*/
 #blogS9{
     display: flex;
     justify-content: space-evenly;
