@@ -387,6 +387,28 @@ nav {
 #section7_img img{
     width: 80%;
 }
+
+#section7_txt_h3{
+    font-size: 20px;
+    text-align: center;
+}
+#section7_txt_p{
+    text-align: center;
+    color: grey;
+}
+.compteur{
+    width: 150px;
+}
+#container_compteur{
+    display: flex;
+}
+.compteur .subject{
+    color: gray;
+}
+.compteur .nombre{
+    font-size: 30px;
+    color: black;
+}
 /*FIN SECTION 7*/
 
 /*DEBUT SECTION 9________________________________________________________________________*/
