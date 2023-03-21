@@ -431,7 +431,7 @@ nav {
     font-size: 40px;
     padding: 2%;
 }
-#section8 p{
+#section8 #head{
     color: grey;
     text-align: center;
 }
@@ -447,13 +447,56 @@ nav {
     height: 500px;
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .abonnements_promo{
     background-color: rgb(255, 255, 255);
     width: 400px;
     height: 500px;
     border-radius: 10px;
+    position: relative;
 }
-
+#abonnements_promo_p{
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+#promo{
+    background-color: rgb(0, 136, 255);
+    padding: 3%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 10px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.price .monnaie{
+    color: rgb(0, 136, 255);
+    
+}
+.price .chiffre{
+    /* font-size: 40px; */
+    color: rgb(0, 136, 255);
+}
+.price .mensuel{
+    color: gray;
+}
 /*FIN SECTION 8__________________________________________________________*/
 
 /*DEBUT SECTION ___9_____________________________________________________________________*/
