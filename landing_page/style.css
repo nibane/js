@@ -380,27 +380,31 @@ nav {
 #section7{
     display: flex;
     justify-content: center;
+    padding: 10%;
+    gap: 5%;
 }
 #section7_txt{
     width: 40%;
+
 }
 #section7_img img{
     width: 80%;
 }
 
 #section7_txt_h3{
-    font-size: 20px;
-    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10%;
 }
 #section7_txt_p{
-    text-align: center;
     color: grey;
+    padding-bottom: 10%;
 }
 .compteur{
     width: 150px;
 }
 #container_compteur{
     display: flex;
+    padding-bottom: 10%;
 }
 .compteur .subject{
     color: gray;
@@ -408,6 +412,13 @@ nav {
 .compteur .nombre{
     font-size: 30px;
     color: black;
+}
+#section7 a{
+    background-color: rgb(0, 136, 255);
+    text-decoration: none;
+    color: white;
+    padding: 2% 6%;
+    border-radius: 5px;
 }
 /*FIN SECTION 7*/
 
