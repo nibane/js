@@ -195,7 +195,7 @@ nav {
 /*DEBUT SECTION 3___________________________________________________________*/
 
 #section3{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(230, 230, 230);
 }
 #section3_h3{
     text-align: center;
@@ -352,9 +352,9 @@ nav {
 }
 /*FIN SECTION 5____________________________________________________________________*/
 
-/*DEBUT SECTION 6*/
+/*DEBUT SECTION 6____________________________________________________*/
 #section6{
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(230, 230, 230);
 }
 #section6_h3{
     text-align: center;
@@ -374,9 +374,9 @@ nav {
 #cinq_image img{
     width: 100px;
 }
-/*FIN SECTION 6*/
+/*FIN SECTION 6_____________________________________________________*/
 
-/*DEBUT SECTION 7*/
+/*DEBUT SECTION 7___________________________________________________*/
 #section7{
     display: flex;
     justify-content: center;
@@ -420,9 +420,14 @@ nav {
     padding: 2% 6%;
     border-radius: 5px;
 }
-/*FIN SECTION 7*/
+/*FIN SECTION 7________________________________________________________________________*/
 
-/*DEBUT SECTION 9________________________________________________________________________*/
+/*DEBUT SECTION 8________________________________________________________*/
+#section8{
+    background-color: rgb(230, 230, 230);
+}
+/*FIN SECTION 8__________________________________________________________*/
+/*DEBUT SECTION ___9_____________________________________________________________________*/
 
 #section9_h3{
     text-align: center;
