@@ -483,19 +483,53 @@ nav {
     border-radius: 0 10px;
 }
 .price{
+    height: 50px;
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+}   
 .price .monnaie{
     color: rgb(0, 136, 255);
-    
+    align-self: flex-start;
 }
 .price .chiffre{
-    /* font-size: 40px; */
     color: rgb(0, 136, 255);
+    font-size: 3rem; 
 }
 .price .mensuel{
     color: gray;
+    align-self: flex-end;
+}
+.option{
+    padding: 15px;
+    display: flex;
+}
+.option .solo{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+.abonnements .a {
+    width: 100%;
+    text-align: center;
+}
+.a a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    padding: 3% 35%;
+    border-radius: 5px;
+}
+.abonnements_promo .b {
+    width: 100%;
+    text-align: center;
+}
+.b a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    padding: 3% 35%;
+    border-radius: 5px;
 }
 /*FIN SECTION 8__________________________________________________________*/
 
