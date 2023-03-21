@@ -438,7 +438,8 @@ nav {
 #section8 #container{
     display: flex;
     gap: 20px;
-    
+    justify-content: center;
+    padding: 5%;
 }
 .abonnements{
     background-color: rgb(255, 255, 255);
@@ -446,7 +447,12 @@ nav {
     height: 500px;
     border-radius: 10px;
 }
-
+.abonnements_promo{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
 
 /*FIN SECTION 8__________________________________________________________*/
 
